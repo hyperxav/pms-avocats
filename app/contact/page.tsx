@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, Clock, Linkedin } from "lucide-react";
+import { Mail, MapPin, Clock, Linkedin, MapPinned } from "lucide-react";
 import { CONTACT, AVOCAT, BUSINESS } from "@/lib/config";
 
 export const metadata: Metadata = {
@@ -73,15 +73,26 @@ export default function ContactPage() {
                 <p className="font-sans text-xs uppercase tracking-[0.18em] text-navy/60 font-medium mb-3">
                   Présence professionnelle
                 </p>
-                <a
-                  href={AVOCAT.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 font-sans text-ink/85 hover:text-gold transition-colors"
-                >
-                  <Linkedin size={18} className="text-gold shrink-0" />
-                  {AVOCAT.fullName} sur LinkedIn
-                </a>
+                <div className="space-y-3">
+                  <a
+                    href={AVOCAT.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 font-sans text-ink/85 hover:text-gold transition-colors"
+                  >
+                    <Linkedin size={18} className="text-gold shrink-0" />
+                    {AVOCAT.fullName} sur LinkedIn
+                  </a>
+                  <a
+                    href={AVOCAT.googleBusiness}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 font-sans text-ink/85 hover:text-gold transition-colors"
+                  >
+                    <MapPinned size={18} className="text-gold shrink-0" />
+                    Le cabinet sur Google
+                  </a>
+                </div>
               </div>
             </div>
 

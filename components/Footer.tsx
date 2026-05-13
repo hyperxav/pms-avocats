@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Mail, Linkedin } from "lucide-react";
+import { MapPin, Mail, Linkedin, MapPinned } from "lucide-react";
 import { BUSINESS, AVOCAT, CONTACT, LEGAL, EXPERTISES } from "@/lib/config";
 
 export function Footer() {
@@ -15,15 +15,26 @@ export function Footer() {
               humaine ancré dans le réseau pluridisciplinaire {AVOCAT.reseau.nom}. Droit
               des affaires, droit pénal des affaires et défense des lanceurs d'alerte.
             </p>
-            <a
-              href={AVOCAT.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-flex items-center gap-2 text-cream/80 hover:text-gold transition-colors text-sm font-sans"
-            >
-              <Linkedin size={14} />
-              LinkedIn
-            </a>
+            <div className="mt-5 flex flex-col gap-2.5">
+              <a
+                href={AVOCAT.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-cream/80 hover:text-gold transition-colors text-sm font-sans"
+              >
+                <Linkedin size={14} />
+                LinkedIn
+              </a>
+              <a
+                href={AVOCAT.googleBusiness}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-cream/80 hover:text-gold transition-colors text-sm font-sans"
+              >
+                <MapPinned size={14} />
+                Le cabinet sur Google
+              </a>
+            </div>
           </div>
 
           {/* Expertises */}

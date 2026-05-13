@@ -81,6 +81,7 @@ const structuredData = {
       })),
       areaServed: { "@type": "Country", name: "France" },
       knowsAbout: EXPERTISES.map((e) => e.title),
+      sameAs: [AVOCAT.googleBusiness, AVOCAT.linkedin],
       founder: { "@id": `${baseUrl}/#mathieu-sassi` },
       member: { "@id": `${baseUrl}/#mathieu-sassi` },
     },

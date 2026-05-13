@@ -49,6 +49,8 @@ export const AVOCAT = {
       "Réseau pluridisciplinaire d'avocats, juristes, experts-comptables, huissiers et associations partenaires permettant une réponse complète aux problématiques complexes.",
   },
   linkedin: "https://fr.linkedin.com/in/mathieu-sassi-059bb8223",
+  googleBusiness:
+    "https://www.google.com/maps/place/PMS+AVOCATS/@48.8754376,2.288558,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66f5854332947:0x417098bfce2ef85f!8m2!3d48.8754376!4d2.2911329!16s%2Fg%2F11mcvdy4hf",
 } as const;
 
 export const CONTACT = {
