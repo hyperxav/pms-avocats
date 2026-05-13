@@ -24,17 +24,16 @@ export function Hero() {
             </p>
 
             <h1 className="font-display font-medium tracking-tight leading-[1.05] text-hero text-navy">
-              Défendre les entreprises{" "}
-              <span className="italic text-gold">et les personnes</span>.
-              Avec la rigueur du parquet et l'exigence du conseil.
+              L'attention d'un cabinet.{" "}
+              <span className="italic text-gold">La force d'un réseau.</span>
             </h1>
 
             <div className="gold-rule" />
 
             <p className="mt-10 max-w-2xl font-sans text-lg md:text-xl text-ink/75 leading-relaxed">
-              {BUSINESS.positioning} {AVOCAT.fullName} accompagne dirigeants, entreprises
-              et personnes physiques en droit des affaires, droit pénal des affaires et
-              défense des lanceurs d'alerte.
+              {BUSINESS.name} accompagne dirigeants, entreprises et personnes en droit des
+              affaires et droit pénal, avec l'appui du réseau pluridisciplinaire{" "}
+              {AVOCAT.reseau.nom}.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-3">

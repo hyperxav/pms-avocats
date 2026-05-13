@@ -23,7 +23,7 @@ Cible géographique principale : **Paris** + IDF. Cible secondaire : France mét
 4. avocat blanchiment Paris — article
 5. assistance garde à vue Paris 17 — article ou page service
 6. avocat fraude fiscale dirigeant — article
-7. avocat ancien parquetier Paris — page À propos (asset narratif)
+7. cabinet d'avocats taille humaine Paris — page À propos (asset narratif central)
 8. cabinet avocat Grande Armée Paris 17 — home + contact
 9. avocat droit des sociétés ICP — page publications/enseignement
 10. avocat 22 avenue grande armée — contact
@@ -60,7 +60,7 @@ Cible géographique principale : **Paris** + IDF. Cible secondaire : France mét
 |---|---|---|---|
 | M1 | Garde à vue : vos droits | assistance garde à vue Paris 17 | Pédagogique |
 | M2 | Lanceurs d'alerte : la protection légale | protection lanceur d'alerte loi Sapin II | Pilier expertise |
-| M3 | Du parquet à la défense — entretien | avocat ancien parquetier Paris | Personal branding |
+| M3 | Cabinet boutique + réseau : un modèle | cabinet d'avocats taille humaine Paris | Personal branding |
 | M4 | Abus de biens sociaux : éléments constitutifs | avocat abus de biens sociaux Paris | Pédagogique |
 | M5 | Mise en examen : déroulement et défense | mise en examen procédure étapes | Pédagogique |
 | M6 | Cession de société : check-list juridique | cession de fonds de commerce avocat | Conseil B2B |
@@ -73,7 +73,7 @@ Cible géographique principale : **Paris** + IDF. Cible secondaire : France mét
 /expertises/droit-penal-des-affaires       → avocat pénal des affaires Paris
 /expertises/droit-penal-general            → avocat pénal Paris
 /expertises/lanceurs-d-alerte              → avocat lanceur d'alerte
-/a-propos                                  → avocat ancien parquetier Paris
+/a-propos                                  → cabinet d'avocats taille humaine Paris
 /publications                              → avocat droit des sociétés ICP
 /contact                                   → cabinet avocat Grande Armée Paris 17
 ```

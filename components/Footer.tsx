@@ -11,8 +11,9 @@ export function Footer() {
           <div className="md:col-span-1">
             <h3 className="font-display text-2xl font-semibold mb-4">{BUSINESS.name}</h3>
             <p className="font-sans text-sm text-cream/70 leading-relaxed">
-              Cabinet d'avocats à Paris fondé par {AVOCAT.fullName}, ancien parquetier.
-              Droit des affaires, droit pénal des affaires et défense des lanceurs d'alerte.
+              Cabinet d'avocats à Paris fondé par {AVOCAT.fullName}. Cabinet à taille
+              humaine ancré dans le réseau pluridisciplinaire {AVOCAT.reseau.nom}. Droit
+              des affaires, droit pénal des affaires et défense des lanceurs d'alerte.
             </p>
             <a
               href={AVOCAT.linkedin}

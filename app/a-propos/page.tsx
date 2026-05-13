@@ -5,7 +5,7 @@ import { AVOCAT, BUSINESS } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "Le cabinet — Maître Mathieu Sassi",
-  description: `Le parcours de ${AVOCAT.fullName}, fondateur de ${BUSINESS.name}. Ancien parquetier, chargé d'enseignement en droit des sociétés à l'${AVOCAT.enseignement.etablissement}.`,
+  description: `Le parcours de ${AVOCAT.fullName}, fondateur de ${BUSINESS.name}. Cabinet à taille humaine adossé au réseau pluridisciplinaire ${AVOCAT.reseau.nom}, chargé d'enseignement en droit des sociétés à l'${AVOCAT.enseignement.etablissement}.`,
 };
 
 export default function AProposPage() {
@@ -22,8 +22,8 @@ export default function AProposPage() {
           </h1>
           <div className="gold-rule" />
           <p className="mt-8 font-sans text-lg text-ink/75 max-w-2xl leading-relaxed">
-            Un cabinet à taille humaine, indépendant, fondé en {BUSINESS.founded} après une
-            expérience au parquet en section criminalité organisée.
+            Un cabinet indépendant, à taille humaine, fondé en {BUSINESS.founded} et
+            ancré dans un réseau pluridisciplinaire.
           </p>
         </div>
       </section>
@@ -33,20 +33,22 @@ export default function AProposPage() {
           <div className="grid md:grid-cols-12 gap-12">
             <div className="md:col-span-7 space-y-6">
               <h2 className="font-display font-medium text-3xl text-navy leading-tight">
-                Un parcours atypique au service de la défense.
+                Un suivi sur-mesure, adossé à un collectif.
               </h2>
               <p className="font-sans text-ink/80 text-lg leading-relaxed">
                 Après une formation initiale en droit des affaires à l'Université
                 Paris-Sorbonne, complétée par une spécialisation en sécurité et gestion
                 des crises à l'IRIS Sup', {AVOCAT.fullName} a exercé en direction
-                juridique en entreprise avant de rejoindre la magistrature.
+                juridique en entreprise avant de prêter serment au Barreau de Paris en{" "}
+                {BUSINESS.founded}.
               </p>
               <p className="font-sans text-ink/80 text-lg leading-relaxed">
-                Affecté au parquet en section criminalité organisée, il y a acquis une
-                connaissance approfondie de la procédure pénale et des mécanismes de la
-                délinquance économique. C'est cette double culture — celle du conseil et
-                celle de l'accusation publique — qu'il met aujourd'hui au service de la
-                défense des dirigeants, entreprises et personnes physiques.
+                Le cabinet a fait le choix d'une structure indépendante, à taille humaine,
+                qui permet à chaque client de bénéficier d'un suivi personnalisé et d'un
+                accès direct au Conseil. Pour les dossiers complexes, {AVOCAT.fullName}{" "}
+                mobilise {AVOCAT.reseau.nom}, un réseau pluridisciplinaire associant
+                avocats, juristes, experts-comptables, huissiers et associations
+                partenaires.
               </p>
               <p className="font-sans text-ink/80 text-lg leading-relaxed">
                 Chargé d'enseignement en droit des sociétés à l'

@@ -8,9 +8,9 @@ export const BUSINESS = {
   tagline: "Cabinet d'avocats — Paris 17ᵉ",
   subtitle: "Droit des affaires · Droit pénal des affaires · Droit pénal général",
   promise:
-    "Un cabinet à dimension humaine, fondé par un ancien parquetier, dédié à la défense rigoureuse des entreprises et des personnes.",
+    "Un cabinet à dimension humaine, dédié à la défense rigoureuse des entreprises et des personnes, ancré dans un réseau pluridisciplinaire.",
   positioning:
-    "Cabinet indépendant alliant la maîtrise du droit pénal acquise au parquet et l'exigence du conseil en droit des affaires.",
+    "Cabinet indépendant à taille humaine, qui allie un suivi sur-mesure de chaque dossier à la force d'un réseau pluridisciplinaire.",
   founded: 2023, // prestation de serment 6 novembre 2023
   years() {
     return new Date().getFullYear() - this.founded;
@@ -39,12 +39,8 @@ export const AVOCAT = {
       libelle: "Avocat fondateur — PMS Avocats, Paris",
     },
     {
-      annee: "2020 — 2023",
-      libelle: "Magistrat — Parquet, section criminalité organisée",
-    },
-    {
-      annee: "Antérieurement",
-      libelle: "Direction juridique en entreprise",
+      annee: "Avant 2023",
+      libelle: "Direction juridique en entreprise · Stage au parquet, section criminalité organisée",
     },
   ],
   reseau: {
@@ -122,7 +118,7 @@ export const EXPERTISES: readonly Expertise[] = [
     title: "Droit pénal des affaires",
     short: "Défense des dirigeants et entreprises en matière de délinquance économique.",
     description:
-      "Une connaissance fine du parquet acquise en section criminalité organisée pour défendre dirigeants, entreprises et professionnels mis en cause dans des dossiers économiques et financiers.",
+      "Défense rigoureuse des dirigeants, entreprises et professionnels mis en cause dans des dossiers économiques et financiers. Suivi personnalisé et appui, pour les dossiers complexes, du réseau pluridisciplinaire Le Paraclet.",
     prestations: [
       "Abus de biens sociaux, abus de confiance, escroquerie",
       "Blanchiment, corruption, trafic d'influence",

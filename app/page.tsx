@@ -26,8 +26,8 @@ export default function Home() {
               Quatre domaines d'intervention, une exigence commune.
             </h2>
             <p className="mt-5 font-sans text-lg text-ink/75 leading-relaxed">
-              Chaque dossier est traité avec la rigueur acquise au parquet et l'exigence
-              du conseil en entreprise.
+              Chaque dossier est traité avec un suivi sur-mesure et, lorsque la
+              complexité l'exige, l'appui d'un réseau pluridisciplinaire.
             </p>
           </div>
 
@@ -56,33 +56,34 @@ export default function Home() {
         </div>
       </section>
 
-      {/* L'AVOCAT — asset narratif */}
+      {/* LE CABINET — taille humaine + réseau */}
       <section className="bg-navy text-cream py-20 md:py-28">
         <div className="container mx-auto px-6 md:px-10">
           <div className="grid md:grid-cols-12 gap-12 items-start">
             <div className="md:col-span-7">
               <p className="font-sans text-xs uppercase tracking-[0.22em] text-gold font-medium">
-                L'avocat
+                Le cabinet
               </p>
               <h2 className="mt-3 font-display font-medium text-mega leading-[1.1]">
-                Du parquet à la défense.{" "}
-                <em className="not-italic text-gold">Une trajectoire singulière.</em>
+                Un cabinet à taille humaine,{" "}
+                <em className="not-italic text-gold">ancré dans un réseau.</em>
               </h2>
               <p className="mt-8 font-sans text-lg text-cream/85 leading-relaxed">
-                Ancien magistrat affecté à la section criminalité organisée, {AVOCAT.fullName} a
-                choisi la défense privée pour mettre cette connaissance fine de la procédure
-                pénale au service des dirigeants, entreprises et personnes physiques.
+                {BUSINESS.name} est un cabinet indépendant, attaché à un suivi personnalisé
+                de chaque dossier. Pour les problématiques complexes, il s'appuie sur{" "}
+                {AVOCAT.reseau.nom}, un réseau pluridisciplinaire associant avocats, juristes,
+                experts-comptables, huissiers et associations partenaires.
               </p>
               <p className="mt-5 font-sans text-lg text-cream/85 leading-relaxed">
                 Chargé d'enseignement en droit des sociétés à l'{AVOCAT.enseignement.etablissement},
-                il conjugue rigueur académique et pratique judiciaire au sein d'un cabinet à
-                taille humaine.
+                {" "}{AVOCAT.fullName} conjugue rigueur académique et pratique judiciaire au
+                service des dirigeants, entreprises et personnes physiques.
               </p>
               <Link
                 href="/a-propos"
                 className="mt-10 inline-flex items-center gap-2 text-gold hover:text-cream transition-colors font-sans font-medium"
               >
-                Découvrir le parcours complet
+                Découvrir le cabinet
                 <ArrowRight size={14} />
               </Link>
             </div>

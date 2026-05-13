@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     default: `${BUSINESS.name} · Cabinet d'avocats Paris — Droit des affaires & pénal des affaires`,
     template: `%s · ${BUSINESS.name}`,
   },
-  description: `${BUSINESS.name} — Cabinet d'avocats à Paris fondé par ${AVOCAT.fullName}, ancien parquetier. Droit des affaires, droit pénal des affaires, droit pénal général, défense des lanceurs d'alerte. 22 Avenue de la Grande Armée, Paris 17ᵉ.`,
+  description: `${BUSINESS.name} — Cabinet d'avocats à Paris fondé par ${AVOCAT.fullName}. Droit des affaires, droit pénal des affaires, droit pénal général, défense des lanceurs d'alerte. Suivi sur-mesure et appui d'un réseau pluridisciplinaire. 22 Avenue de la Grande Armée, Paris 17ᵉ.`,
   keywords: [
     "avocat Paris",
     "avocat droit des affaires Paris",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: `${BUSINESS.name} · Cabinet d'avocats Paris`,
-    description: `Cabinet d'avocats à Paris — droit des affaires, droit pénal des affaires, défense des lanceurs d'alerte. Fondé par ${AVOCAT.fullName}, ancien parquetier.`,
+    description: `Cabinet d'avocats à Paris — droit des affaires, droit pénal des affaires, défense des lanceurs d'alerte. Cabinet à taille humaine, adossé au réseau pluridisciplinaire ${AVOCAT.reseau.nom}.`,
     locale: "fr_FR",
     type: "website",
   },

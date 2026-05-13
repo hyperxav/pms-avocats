@@ -1,7 +1,7 @@
 # Ligne éditoriale — PMS Avocats
 
 ## Principe directeur
-**Sobre autoritaire**. Le site projette l'image d'un cabinet sérieux, ancré dans la tradition de la profession d'avocat, doté d'un parcours singulier (parquet → défense). On vend de la **confiance** et de la **rigueur**, pas du « service client moderne ».
+**Sobre autoritaire**. Le site projette l'image d'un cabinet sérieux, ancré dans la tradition de la profession d'avocat, qui marie l'attention d'une structure boutique à la force d'un réseau pluridisciplinaire. On vend de la **confiance**, du **suivi sur-mesure** et de la **rigueur**, pas du « service client moderne ».
 
 ## Registre de langue
 - Soutenu, posé, jamais familier
@@ -64,10 +64,16 @@
 ## Exemples validés
 
 ### À écrire
-> Ancien parquetier affecté à la section criminalité organisée, Maître Sassi met aujourd'hui cette connaissance fine de la procédure pénale au service de la défense des dirigeants, entreprises et personnes physiques.
+> Cabinet indépendant à taille humaine, PMS Avocats accompagne dirigeants, entreprises et personnes physiques en droit des affaires et droit pénal, avec l'appui du réseau pluridisciplinaire Le Paraclet pour les dossiers complexes.
 
 ### À ne pas écrire
 > Avec Mathieu, vous avez l'assurance d'un avocat qui connaît tous les rouages du système judiciaire et qui se bat à fond pour vous.
+
+### À ne plus écrire (positionnement abandonné)
+> Ancien parquetier reconverti en défense privée…
+> Du parquet à la défense…
+
+Le passage au parquet était un **stage court**, pas un poste de magistrat. Il apparaît uniquement en timeline carrière /a-propos, sans accroche commerciale.
 
 ### À écrire
 > Le cabinet intervient en matière d'abus de biens sociaux, d'abus de confiance, d'escroquerie, ainsi que sur les contentieux de fraude fiscale et de corruption.
