@@ -1,0 +1,1 @@
+../../../AUDIT/.claude/skills/generate-gbp.md

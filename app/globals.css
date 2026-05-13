@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #FAFAF7;
+  color: #1A1A1A;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: #0F2547;
+  color: #FAFAF7;
+}
+
+*:focus-visible {
+  outline: 2px solid #B08D3E;
+  outline-offset: 3px;
+}
+
+/* Filet décoratif or sous H1 hero — signature visuelle profession libérale */
+.gold-rule::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #B08D3E;
+  margin-top: 1.5rem;
+}

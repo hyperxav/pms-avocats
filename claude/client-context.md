@@ -1,0 +1,81 @@
+# Contexte client — PMS Avocats
+
+## Identité
+- **Cabinet** : PMS Avocats (cabinet individuel)
+- **Fondateur** : Maître Mathieu Sassi
+- **Toque** : C1127 — Barreau de Paris
+- **Prestation de serment** : 6 novembre 2023
+- **Adresse** : 22 Avenue de la Grande Armée, 75017 Paris
+- **Email** : contact@pms-avocats.com
+- **LinkedIn** : https://fr.linkedin.com/in/mathieu-sassi-059bb8223
+
+## Parcours différenciant — asset narratif central
+1. Formation initiale Université Paris-Sorbonne (Droit des affaires) + IRIS Sup' (Sécurité & gestion des crises)
+2. Direction juridique en entreprise
+3. **Magistrat au parquet, section criminalité organisée** (2020-2023)
+4. Avocat fondateur PMS Avocats (depuis nov. 2023)
+5. Chargé d'enseignement en droit des sociétés — Institut catholique de Paris
+
+**Le storytelling central** : « du parquet à la défense ». C'est l'asset qui différencie Mathieu de 95 % des avocats 2 ans d'exercice et qui doit être reflété — sobrement — dans chaque page.
+
+## Expertises (4 piliers)
+1. Droit des affaires
+2. Droit pénal des affaires
+3. Droit pénal général
+4. Défense des lanceurs d'alerte
+
+## Présence professionnelle métier
+Doctrine · JustiFit · Allaw · Predictice · Pappers Justice · Gens de Confiance · LinkedIn
+
+## Persona client cible
+- **Dirigeants de PME et entrepreneurs** confrontés à des problématiques de droit des affaires (structuration, contentieux, gouvernance)
+- **Dirigeants mis en cause** en droit pénal des affaires (ABS, fraude, corruption)
+- **Personnes physiques** en procédure pénale (garde à vue, comparution immédiate, instruction)
+- **Lanceurs d'alerte** souhaitant être conseillés avant ou pendant un signalement
+- Tranche d'âge : 35-65 ans
+- CSP : cadres dirigeants, professions libérales, chefs d'entreprise
+
+## Ce qu'il faut NE JAMAIS dire
+- ❌ « Pas cher », « low-cost », « petit prix » — incompatible profession libérale premium
+- ❌ « Garanti », « promesse de résultat » — interdit par déontologie (RIN art. 10)
+- ❌ « Meilleur avocat », « numéro 1 », « le plus » — interdit (RIN art. 10.3 publicité comparative)
+- ❌ Tutoiement client
+- ❌ Émojis dans le contenu professionnel
+- ❌ Langage commercial type startup (« on déchire », « top », « cool »)
+- ❌ Détailler les honoraires sans cadre déontologique
+- ❌ Mentionner des dossiers nominativement sans accord client
+- ❌ Témoignages clients non-anonymisés (interdit RIN)
+- ❌ Étoiles ou notation sur le site lui-même (Google Reviews à part)
+
+## Cadre déontologique
+- Règlement Intérieur National (RIN) de la profession d'avocat
+- Règlement Intérieur du Barreau de Paris
+- Article 10 RIN — publicité personnelle de l'avocat
+- Secret professionnel absolu (article 66-5 loi du 31 décembre 1971)
+- Indépendance, dignité, conscience, probité, humanité, honneur, loyauté, désintéressement, confraternité, délicatesse, modération et courtoisie (RIN 1.3)
+
+## Vocabulaire à utiliser
+- « Cabinet » plutôt que « entreprise » ou « société »
+- « Maître Sassi » ou « le Conseil » plutôt que « l'avocat »
+- « Client » ou « justiciable » selon contexte
+- « Dossier » plutôt que « cas »
+- « Honoraires » plutôt que « tarifs » ou « prix »
+- « Consultation » ou « rendez-vous » plutôt que « réunion »
+- « Saisir » (le cabinet, la juridiction) — registre soutenu
+- « Audience », « instruction », « procédure »
+
+## Différentiateurs à mettre en avant
+1. **Le parcours parquet** — connaissance des rouages de l'accusation publique
+2. **L'enseignement universitaire** — rigueur académique
+3. **Le réseau pluridisciplinaire Le Paraclet** — réponse complète
+4. **Cabinet à taille humaine** — accessibilité, suivi personnalisé
+5. **Spécialisation lanceurs d'alerte** — niche peu couverte, expertise pointue
+
+## Tone & registre
+**Sobre autoritaire** :
+- Ton : posé, mesuré, jamais commercial
+- Vouvoiement systématique
+- Pas d'exclamation
+- Phrases courtes pour les faits, longues pour les nuances
+- Vocabulaire juridique précis, mais accessible (éviter le jargon inutile)
+- Citations latines ou références juridiques bienvenues si justifiées (parcimonie)
