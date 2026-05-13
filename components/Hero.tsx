@@ -56,14 +56,14 @@ export function Hero() {
 
           {/* Photo */}
           <div className="md:col-span-5">
-            <div className="relative aspect-[4/3] md:aspect-[3/4] overflow-hidden bg-navy">
+            <div className="relative aspect-[4/3] overflow-hidden bg-navy">
               <Image
                 src="/hero-mathieu.png"
                 alt={`${AVOCAT.fullName}, avocat au Barreau de Paris, dans les couloirs du Palais de Justice`}
                 fill
                 priority
                 sizes="(min-width: 768px) 42vw, 100vw"
-                className="object-cover object-top"
+                className="object-cover object-center"
               />
             </div>
             <p className="mt-4 font-sans text-xs uppercase tracking-[0.18em] text-navy/60 font-medium text-center md:text-left">
