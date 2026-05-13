@@ -25,8 +25,8 @@ export function Hero() {
 
             <h1 className="font-display font-medium tracking-tight leading-[1.05] text-hero text-navy">
               Défendre les entreprises{" "}
-              <span className="italic text-gold">et les personnes</span>,
-              avec la rigueur du parquet et l'exigence du conseil.
+              <span className="italic text-gold">et les personnes</span>.
+              Avec la rigueur du parquet et l'exigence du conseil.
             </h1>
 
             <div className="gold-rule" />
