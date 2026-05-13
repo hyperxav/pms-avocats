@@ -45,7 +45,7 @@ Doctrine · JustiFit · Allaw · Predictice · Pappers Justice · Gens de Confia
 - ❌ Détailler les honoraires sans cadre déontologique
 - ❌ Mentionner des dossiers nominativement sans accord client
 - ❌ Témoignages clients non-anonymisés (interdit RIN)
-- ❌ Étoiles ou notation sur le site lui-même (Google Reviews à part)
+- ⚠️ **Avis Google sur le site** : compteur sobre synthétique (note + nombre d'avis avec lien vers la fiche GBP) OK. Mais **PAS de verbatims, PAS de prénom + note individuelle, PAS d'alignement de 5 étoiles type Yelp** — registre incompatible.
 
 ## Cadre déontologique
 - Règlement Intérieur National (RIN) de la profession d'avocat

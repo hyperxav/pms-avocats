@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { MapPin, Mail, Linkedin, MapPinned } from "lucide-react";
-import { BUSINESS, AVOCAT, CONTACT, LEGAL, EXPERTISES } from "@/lib/config";
+import { MapPin, Mail, Linkedin, Star } from "lucide-react";
+import { BUSINESS, AVOCAT, CONTACT, LEGAL, EXPERTISES, REVIEWS } from "@/lib/config";
 
 export function Footer() {
   return (
@@ -26,13 +26,14 @@ export function Footer() {
                 LinkedIn
               </a>
               <a
-                href={AVOCAT.googleBusiness}
+                href={REVIEWS.google.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-cream/80 hover:text-gold transition-colors text-sm font-sans"
               >
-                <MapPinned size={14} />
-                Le cabinet sur Google
+                <Star size={14} className="fill-gold text-gold" />
+                {REVIEWS.google.rating.toString().replace(".", ",")} / 5 ·{" "}
+                {REVIEWS.google.count} avis Google
               </a>
             </div>
           </div>

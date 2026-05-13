@@ -4,7 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { StickyCallButton } from "@/components/StickyCallButton";
-import { BUSINESS, AVOCAT, CONTACT, LEGAL, EXPERTISES } from "@/lib/config";
+import { BUSINESS, AVOCAT, CONTACT, LEGAL, EXPERTISES, REVIEWS } from "@/lib/config";
 
 const display = Cormorant_Garamond({
   subsets: ["latin"],
@@ -82,6 +82,13 @@ const structuredData = {
       areaServed: { "@type": "Country", name: "France" },
       knowsAbout: EXPERTISES.map((e) => e.title),
       sameAs: [AVOCAT.googleBusiness, AVOCAT.linkedin],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: REVIEWS.google.rating.toString(),
+        reviewCount: REVIEWS.google.count.toString(),
+        bestRating: "5",
+        worstRating: "1",
+      },
       founder: { "@id": `${baseUrl}/#mathieu-sassi` },
       member: { "@id": `${baseUrl}/#mathieu-sassi` },
     },

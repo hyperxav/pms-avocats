@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
-import { BUSINESS, AVOCAT } from "@/lib/config";
+import { ArrowRight, Star } from "lucide-react";
+import { BUSINESS, AVOCAT, REVIEWS } from "@/lib/config";
 
 export function Hero() {
   return (
@@ -51,6 +51,20 @@ export function Hero() {
                 Découvrir les expertises
               </Link>
             </div>
+
+            <a
+              href={REVIEWS.google.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-8 inline-flex items-center gap-2 text-sm font-sans text-ink/65 hover:text-gold transition-colors"
+            >
+              <Star size={14} className="fill-gold text-gold" />
+              <span>
+                {REVIEWS.google.rating.toString().replace(".", ",")} / 5 ·{" "}
+                {REVIEWS.google.count} avis sur Google
+              </span>
+              <ArrowRight size={12} />
+            </a>
           </div>
 
           {/* Photo */}

@@ -165,6 +165,16 @@ export const EXPERTISES: readonly Expertise[] = [
   },
 ];
 
+// Avis Google — afficher de manière sobre (compteur synthétique uniquement, pas de verbatims).
+// À ajuster avec les chiffres exacts de la fiche GBP au moment du déploiement.
+export const REVIEWS = {
+  google: {
+    rating: 4.9,
+    count: 20,
+    url: "https://www.google.com/maps/place/PMS+AVOCATS/@48.8754376,2.288558,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66f5854332947:0x417098bfce2ef85f!8m2!3d48.8754376!4d2.2911329!16s%2Fg%2F11mcvdy4hf",
+  },
+} as const;
+
 export const ANNUAIRES = [
   { name: "Doctrine", url: "https://www.doctrine.fr/" },
   { name: "JustiFit", url: "https://www.justifit.fr/" },

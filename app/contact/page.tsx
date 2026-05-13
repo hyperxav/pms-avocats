@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, Clock, Linkedin, MapPinned } from "lucide-react";
-import { CONTACT, AVOCAT, BUSINESS } from "@/lib/config";
+import { Mail, MapPin, Clock, Linkedin, Star } from "lucide-react";
+import { CONTACT, AVOCAT, BUSINESS, REVIEWS } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "Contact & prise de rendez-vous",
@@ -84,13 +84,14 @@ export default function ContactPage() {
                     {AVOCAT.fullName} sur LinkedIn
                   </a>
                   <a
-                    href={AVOCAT.googleBusiness}
+                    href={REVIEWS.google.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 font-sans text-ink/85 hover:text-gold transition-colors"
                   >
-                    <MapPinned size={18} className="text-gold shrink-0" />
-                    Le cabinet sur Google
+                    <Star size={18} className="fill-gold text-gold shrink-0" />
+                    {REVIEWS.google.rating.toString().replace(".", ",")} / 5 ·{" "}
+                    {REVIEWS.google.count} avis sur Google
                   </a>
                 </div>
               </div>
